@@ -19,6 +19,7 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 500px;
+  min-width: 500px;
 }
 
 h1 {
@@ -59,4 +60,19 @@ button:hover {
 
 .nextBtn:hover {
   background: #16a34a;
+}
+
+.navButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.submit-Btn {
+  background-color: #f97316;
+}
+
+.submit-Btn:hover {
+  background-color: #ea580c;
 }
